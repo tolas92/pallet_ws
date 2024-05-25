@@ -1,0 +1,15 @@
+names:
+- cargo_100
+- cargo_25
+- cargo_50
+- cargo_empty
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: truck_loading
+  url: https://universe.roboflow.com/tolasing/truck_loading/dataset/2
+  version: 2
+  workspace: tolasing
+test: ../test/images
+train: truck_loading-2/train/images
+val: truck_loading-2/valid/images
